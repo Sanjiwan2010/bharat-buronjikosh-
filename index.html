@@ -1,0 +1,1488 @@
+<!DOCTYPE html>
+<html lang="as">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ভাৰত বুৰঞ্জীকোষ - একটি ব্যাপক ভারতীয় ইতিহাস বই অসমীয়ায় লিখিত। UPSC, APSC, ADRE পরীক্ষার জন্য আদর্শ।">
+    <meta name="keywords" content="ভারত ইতিহাস, অসমীয়া ইতিহাস, UPSC, APSC, ADRE, শান্তনু কৌশিক বরুয়া">
+    <meta name="author" content="শান্তনু কৌশিক বরুয়া">
+    <meta name="theme-color" content="#0F5132">
+    
+    <meta property="og:title" content="ভাৰত বুৰঞ্জীকোষ - ভারতীয় ইতিহাসের সম্পূর্ণ সংকলন">
+    <meta property="og:description" content="অসমীয়ায় লিখিত ভারতীয় ইতিহাসের একটি ব্যাপক বই। UPSC, APSC, ADRE পরীক্ষার জন্য সর্বোত্তম সংস্থান।">
+    <meta property="og:image" content="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 630'%3E%3Crect fill='%230F5132' width='1200' height='630'/%3E%3Ctext x='600' y='315' font-size='72' fill='%23FFF8EE' text-anchor='middle' font-family='serif' font-weight='bold'%3Eভাৰত বুৰঞ্জীকোষ%3C/text%3E%3C/svg%3E">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bharat-burunjikosh.com">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ভাৰত বুৰঞ্জীকোষ">
+    <meta name="twitter:description" content="ভারতীয় ইতিহাসের সম্পূর্ণ সংকলন - অসমীয়ায়">
+    
+    <title>ভাৰত বুৰঞ্জীকোষ | भारत बुरुंजीकोष | Complete Indian History Book</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary-green: #0F5132;
+            --cream: #FFF8EE;
+            --gold: #D4A017;
+            --dark-green: #0a3a23;
+            --light-green: #1a7a4a;
+            --text-dark: #1a1a1a;
+            --text-light: #555;
+            --shadow-sm: 0 2px 8px rgba(0,0,0,0.08);
+            --shadow-md: 0 8px 24px rgba(0,0,0,0.12);
+            --shadow-lg: 0 16px 48px rgba(0,0,0,0.15);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Georgia', 'Garamond', serif;
+            color: var(--text-dark);
+            background-color: var(--cream);
+            line-height: 1.6;
+            letter-spacing: 0.3px;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Palatino Linotype', 'Book Antiqua', serif;
+            font-weight: 600;
+            letter-spacing: -0.5px;
+            color: var(--text-dark);
+        }
+        
+        h1 {
+            font-size: clamp(2.5rem, 8vw, 4rem);
+            line-height: 1.1;
+        }
+        
+        h2 {
+            font-size: clamp(1.8rem, 5vw, 3rem);
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            position: relative;
+            padding-bottom: 1rem;
+        }
+        
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--gold), transparent);
+        }
+        
+        h3 {
+            font-size: clamp(1.3rem, 3vw, 1.8rem);
+        }
+        
+        a {
+            color: var(--primary-green);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        a:hover {
+            color: var(--gold);
+        }
+        
+        button {
+            font-family: 'Georgia', serif;
+            cursor: pointer;
+            transition: var(--transition);
+            border: none;
+            font-size: 1rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        
+        /* Navigation */
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background: var(--primary-green);
+            box-shadow: var(--shadow-md);
+            transition: var(--transition);
+        }
+        
+        nav.scrolled {
+            padding: 0.8rem 0;
+        }
+        
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1.2rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .nav-brand {
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--cream);
+            font-family: 'Palatino Linotype', serif;
+            letter-spacing: 1px;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2.5rem;
+            align-items: center;
+        }
+        
+        .nav-links a {
+            color: var(--cream);
+            font-size: 0.95rem;
+            font-weight: 500;
+            position: relative;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -4px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--gold);
+            transition: width 0.3s ease;
+        }
+        
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+        
+        .mobile-toggle {
+            display: none;
+            flex-direction: column;
+            gap: 5px;
+            background: none;
+            padding: 0.5rem;
+        }
+        
+        .mobile-toggle span {
+            width: 25px;
+            height: 3px;
+            background: var(--cream);
+            border-radius: 2px;
+            transition: var(--transition);
+        }
+        
+        .mobile-toggle.active span:nth-child(1) {
+            transform: rotate(45deg) translate(10px, 10px);
+        }
+        
+        .mobile-toggle.active span:nth-child(2) {
+            opacity: 0;
+        }
+        
+        .mobile-toggle.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(7px, -7px);
+        }
+        
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            background: linear-gradient(135deg, var(--primary-green) 0%, var(--dark-green) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(212, 160, 23, 0.1) 0%, transparent 70%);
+            border-radius: 50%;
+            animation: float 20s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) translateX(0px); }
+            50% { transform: translateY(30px) translateX(20px); }
+        }
+        
+        .hero-content {
+            max-width: 1200px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .hero-text h1 {
+            color: var(--cream);
+            margin-bottom: 1.5rem;
+            animation: slideInLeft 0.8s ease-out;
+        }
+        
+        .hero-text .subtitle {
+            font-size: 1.3rem;
+            color: var(--gold);
+            margin-bottom: 1.5rem;
+            font-weight: 500;
+            animation: slideInLeft 0.8s ease-out 0.2s both;
+        }
+        
+        .hero-text p {
+            font-size: 1.1rem;
+            color: rgba(255, 248, 238, 0.9);
+            margin-bottom: 2rem;
+            line-height: 1.8;
+            animation: slideInLeft 0.8s ease-out 0.4s both;
+        }
+        
+        .hero-cta {
+            display: flex;
+            gap: 1.5rem;
+            animation: slideInLeft 0.8s ease-out 0.6s both;
+        }
+        
+        .btn {
+            padding: 0.95rem 2.5rem;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-weight: 600;
+            transition: var(--transition);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .btn-primary {
+            background: var(--gold);
+            color: var(--primary-green);
+        }
+        
+        .btn-primary:hover {
+            background: #e8b923;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(212, 160, 23, 0.3);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: var(--cream);
+            border: 2px solid var(--cream);
+        }
+        
+        .btn-secondary:hover {
+            background: var(--cream);
+            color: var(--primary-green);
+        }
+        
+        .hero-book {
+            animation: slideInRight 0.8s ease-out;
+        }
+        
+        .book-cover {
+            width: 100%;
+            max-width: 400px;
+            aspect-ratio: 3/4;
+            background: linear-gradient(135deg, var(--gold) 0%, #c49010 100%);
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            text-align: center;
+            color: var(--cream);
+            box-shadow: var(--shadow-lg), 0 40px 80px rgba(0,0,0,0.3);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .book-cover::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                repeating-linear-gradient(
+                    90deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(255, 248, 238, 0.03) 2px,
+                    rgba(255, 248, 238, 0.03) 4px
+                );
+            pointer-events: none;
+        }
+        
+        .book-cover-content {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .book-cover h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            color: var(--cream);
+        }
+        
+        .book-cover .author {
+            font-size: 1.2rem;
+            color: rgba(255, 248, 238, 0.9);
+            font-style: italic;
+            margin-bottom: 2rem;
+        }
+        
+        .book-cover .highlight {
+            font-size: 0.9rem;
+            color: var(--primary-green);
+            background: var(--cream);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            display: inline-block;
+            margin-top: 1rem;
+        }
+        
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        
+        /* Sections */
+        section {
+            padding: 5rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .section-light {
+            background: var(--cream);
+        }
+        
+        .section-dark {
+            background: var(--primary-green);
+            color: var(--cream);
+        }
+        
+        .section-dark h2, .section-dark h3 {
+            color: var(--cream);
+        }
+        
+        .section-dark h2::after {
+            background: linear-gradient(90deg, var(--gold), transparent);
+        }
+        
+        /* Why This Book */
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2.5rem;
+            margin-top: 3rem;
+        }
+        
+        .benefit-card {
+            background: var(--cream);
+            padding: 2.5rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--gold);
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+        }
+        
+        .section-dark .benefit-card {
+            background: rgba(255, 248, 238, 0.05);
+            border-left-color: var(--gold);
+        }
+        
+        .benefit-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .benefit-card h3 {
+            margin-bottom: 1rem;
+            color: var(--primary-green);
+        }
+        
+        .section-dark .benefit-card h3 {
+            color: var(--gold);
+        }
+        
+        .benefit-card p {
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+        
+        .section-dark .benefit-card p {
+            color: rgba(255, 248, 238, 0.8);
+        }
+        
+        /* About The Book */
+        .book-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: start;
+            margin-top: 3rem;
+        }
+        
+        .book-info {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+        
+        .info-item {
+            background: rgba(15, 81, 50, 0.05);
+            padding: 1.5rem;
+            border-radius: 6px;
+            border-left: 3px solid var(--gold);
+        }
+        
+        .info-item-label {
+            font-size: 0.9rem;
+            color: var(--primary-green);
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+        }
+        
+        .info-item-value {
+            font-size: 1.1rem;
+            color: var(--text-dark);
+        }
+        
+        /* Topics Covered */
+        .topics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .topic-card {
+            background: var(--cream);
+            padding: 2rem;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+        }
+        
+        .section-dark .topic-card {
+            background: rgba(255, 248, 238, 0.05);
+        }
+        
+        .topic-card:hover {
+            background: var(--primary-green);
+            color: var(--cream);
+            transform: scale(1.05);
+        }
+        
+        .topic-card h4 {
+            margin-bottom: 0.5rem;
+        }
+        
+        .topic-card p {
+            font-size: 0.95rem;
+            opacity: 0.8;
+        }
+        
+        /* Exam Benefits */
+        .exam-table {
+            margin-top: 3rem;
+            overflow-x: auto;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th {
+            background: var(--primary-green);
+            color: var(--cream);
+            padding: 1.2rem;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        td {
+            padding: 1rem 1.2rem;
+            border-bottom: 1px solid rgba(15, 81, 50, 0.1);
+        }
+        
+        tr:hover {
+            background: rgba(15, 81, 50, 0.05);
+        }
+        
+        /* Author Section */
+        .author-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+        
+        .author-photo {
+            width: 100%;
+            max-width: 350px;
+            aspect-ratio: 1;
+            background: linear-gradient(135deg, var(--gold) 0%, var(--primary-green) 100%);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--cream);
+            font-size: 1.2rem;
+            font-weight: 600;
+            box-shadow: var(--shadow-lg);
+            overflow: hidden;
+            position: relative;
+        }
+        
+        .author-photo::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 30% 30%, rgba(255, 248, 238, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        
+        .author-info {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        .author-info h2 {
+            color: var(--primary-green);
+        }
+        
+        .author-bio {
+            font-size: 1.05rem;
+            line-height: 1.9;
+            color: var(--text-light);
+        }
+        
+        /* Testimonials */
+        .testimonial-container {
+            overflow-x: auto;
+            scroll-behavior: smooth;
+        }
+        
+        .testimonials {
+            display: flex;
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .testimonial {
+            flex: 0 0 300px;
+            background: var(--cream);
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: var(--shadow-md);
+            border-top: 3px solid var(--gold);
+        }
+        
+        .section-dark .testimonial {
+            background: rgba(255, 248, 238, 0.05);
+        }
+        
+        .testimonial-text {
+            font-size: 0.95rem;
+            font-style: italic;
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+        }
+        
+        .section-dark .testimonial-text {
+            color: rgba(255, 248, 238, 0.8);
+        }
+        
+        .testimonial-author {
+            font-weight: 600;
+            color: var(--primary-green);
+            margin-bottom: 0.3rem;
+        }
+        
+        .section-dark .testimonial-author {
+            color: var(--gold);
+        }
+        
+        .testimonial-role {
+            font-size: 0.85rem;
+            color: var(--text-light);
+        }
+        
+        .section-dark .testimonial-role {
+            color: rgba(255, 248, 238, 0.6);
+        }
+        
+        .testimonial-stars {
+            color: var(--gold);
+            margin-bottom: 1rem;
+            letter-spacing: 2px;
+        }
+        
+        /* FAQ */
+        .faq-container {
+            margin-top: 3rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .faq-item {
+            margin-bottom: 1.5rem;
+            border: 1px solid rgba(15, 81, 50, 0.2);
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        
+        .section-dark .faq-item {
+            border-color: rgba(255, 248, 238, 0.1);
+        }
+        
+        .faq-question {
+            padding: 1.5rem;
+            background: rgba(15, 81, 50, 0.05);
+            cursor: pointer;
+            font-weight: 600;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            transition: var(--transition);
+        }
+        
+        .section-dark .faq-question {
+            background: rgba(255, 248, 238, 0.05);
+        }
+        
+        .faq-question:hover {
+            background: rgba(15, 81, 50, 0.1);
+        }
+        
+        .section-dark .faq-question:hover {
+            background: rgba(255, 248, 238, 0.08);
+        }
+        
+        .faq-toggle {
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
+            color: var(--primary-green);
+        }
+        
+        .section-dark .faq-toggle {
+            color: var(--gold);
+        }
+        
+        .faq-item.active .faq-toggle {
+            transform: rotate(180deg);
+        }
+        
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            background: var(--cream);
+        }
+        
+        .section-dark .faq-answer {
+            background: rgba(255, 248, 238, 0.02);
+        }
+        
+        .faq-item.active .faq-answer {
+            max-height: 400px;
+        }
+        
+        .faq-answer-text {
+            padding: 1.5rem;
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+        
+        .section-dark .faq-answer-text {
+            color: rgba(255, 248, 238, 0.8);
+        }
+        
+        /* Contact Form */
+        .contact-form {
+            max-width: 600px;
+            margin: 3rem auto 0;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+        
+        .form-group label {
+            font-weight: 600;
+            color: var(--primary-green);
+        }
+        
+        .section-dark .form-group label {
+            color: var(--gold);
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            padding: 0.95rem 1.2rem;
+            border: 1px solid rgba(15, 81, 50, 0.2);
+            border-radius: 4px;
+            font-family: 'Georgia', serif;
+            font-size: 1rem;
+            transition: var(--transition);
+            background: var(--cream);
+        }
+        
+        .section-dark .form-group input,
+        .section-dark .form-group textarea {
+            background: rgba(255, 248, 238, 0.05);
+            border-color: rgba(255, 248, 238, 0.1);
+            color: var(--cream);
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--gold);
+            box-shadow: 0 0 0 3px rgba(212, 160, 23, 0.1);
+        }
+        
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+        
+        .form-submit {
+            align-self: flex-start;
+        }
+        
+        /* Footer */
+        footer {
+            background: var(--dark-green);
+            color: var(--cream);
+            padding: 3rem 2rem 1rem;
+        }
+        
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2.5rem;
+            margin-bottom: 3rem;
+        }
+        
+        .footer-section h4 {
+            color: var(--gold);
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+        
+        .footer-section ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+        
+        .footer-section a {
+            color: rgba(255, 248, 238, 0.8);
+            font-size: 0.95rem;
+        }
+        
+        .footer-section a:hover {
+            color: var(--gold);
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 248, 238, 0.1);
+            padding-top: 2rem;
+            text-align: center;
+            font-size: 0.9rem;
+            color: rgba(255, 248, 238, 0.7);
+        }
+        
+        /* Mobile Responsive */
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+                position: fixed;
+                top: 60px;
+                left: 0;
+                right: 0;
+                background: var(--primary-green);
+                flex-direction: column;
+                gap: 0;
+                padding: 2rem 0;
+                text-align: center;
+                box-shadow: var(--shadow-md);
+            }
+            
+            .nav-links.active {
+                display: flex;
+            }
+            
+            .nav-links a {
+                padding: 0.8rem 0;
+                border-bottom: 1px solid rgba(255, 248, 238, 0.1);
+            }
+            
+            .mobile-toggle {
+                display: flex;
+            }
+            
+            .hero-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .book-details {
+                grid-template-columns: 1fr;
+            }
+            
+            .author-container {
+                grid-template-columns: 1fr;
+            }
+            
+            .author-photo {
+                max-width: 100%;
+            }
+            
+            .testimonials {
+                flex-direction: column;
+            }
+            
+            .testimonial {
+                flex: 1 1 100%;
+            }
+            
+            .hero-cta {
+                flex-direction: column;
+            }
+            
+            .btn {
+                width: 100%;
+                text-align: center;
+            }
+            
+            section {
+                padding: 3rem 1.5rem;
+            }
+            
+            h2 {
+                font-size: 2rem;
+            }
+        }
+        
+        /* Scroll animations */
+        .fade-in {
+            opacity: 0;
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .stagger-item:nth-child(1) { animation-delay: 0.1s; }
+        .stagger-item:nth-child(2) { animation-delay: 0.2s; }
+        .stagger-item:nth-child(3) { animation-delay: 0.3s; }
+        .stagger-item:nth-child(4) { animation-delay: 0.4s; }
+        .stagger-item:nth-child(5) { animation-delay: 0.5s; }
+        .stagger-item:nth-child(6) { animation-delay: 0.6s; }
+    </style>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Book",
+        "name": "ভাৰত বুৰঞ্জীকোষ",
+        "author": {
+            "@type": "Person",
+            "name": "শান্তনু কৌশিক বরুয়া"
+        },
+        "description": "একটি ব্যাপক ভারতীয় ইতিহাস বই অসমীয়ায় লিখিত যা প্রাচীন ভারত, বৈদিক যুগ, মহাজনপদ, মৌর্য সাম্রাজ্য, গুপ্ত সাম্রাজ্য, দিল্লি সালতানাত, মুঘল ভারত, ব্রিটিশ ভারত, স্বাধীনতা সংগ্রাম এবং আধুনিক ভারতকে কভার করে।",
+        "inLanguage": "as",
+        "datePublished": "2024",
+        "image": "https://bharat-burunjikosh.com/book-cover.jpg",
+        "isPartOf": {
+            "@type": "Series",
+            "name": "Indian History Series"
+        }
+    }
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="nav-brand">ভাৰত বুৰঞ্জীকোষ</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">গৃহ</a></li>
+                <li><a href="#why-book">কিয়</a></li>
+                <li><a href="#about">সম্পর্কে</a></li>
+                <li><a href="#topics">বিষয়</a></li>
+                <li><a href="#exams">পরীক্ষা</a></li>
+                <li><a href="#author">লেখক</a></li>
+                <li><a href="#testimonials">মতামত</a></li>
+                <li><a href="#faq">প্রশ্ন</a></li>
+                <li><a href="#contact">যোগাযোগ</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobileToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>ভাৰত বুৰঞ্জীকোষ</h1>
+                <p class="subtitle">भारत का सम्पूर्ण इतिहास • Complete Indian History</p>
+                <p>একটি ব্যাপক ইতিহাস সংকলন যা প্রাচীন ভারত থেকে আধুনিক ভারত পর্যন্ত সম্পূর্ণ যাত্রা উপস্থাপন করে। UPSC, APSC এবং ADRE পরীক্ষার জন্য নিখুঁত সংস্থান।</p>
+                <div class="hero-cta">
+                    <button class="btn btn-primary">এখনই অর্ডার করুন</button>
+                    <button class="btn btn-secondary">আরও জানুন</button>
+                </div>
+            </div>
+            <div class="hero-book">
+                <div class="book-cover">
+                    <div class="book-cover-content">
+                        <h2>ভাৰত<br>বুৰঞ্জীকোষ</h2>
+                        <p class="author">লেখক<br>শান্তনু কৌশিক বরুয়া</p>
+                        <span class="highlight">প্রিমিয়াম সংস্করণ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Why This Book -->
+    <section id="why-book" class="section-light">
+        <h2>কেন এই বইটি বেছে নেবেন?</h2>
+        <div class="benefits-grid">
+            <div class="benefit-card stagger-item fade-in">
+                <h3>সম্পূর্ণ কভারেজ</h3>
+                <p>প্রাচীন ভারত থেকে আধুনিক ভারত পর্যন্ত সমস্ত ঐতিহাসিক যুগ এবং ঘটনাগুলির সম্পূর্ণ কভারেজ।</p>
+            </div>
+            <div class="benefit-card stagger-item fade-in">
+                <h3>পরীক্ষা-কেন্দ্রিক</h3>
+                <p>UPSC, APSC এবং ADRE পরীক্ষার পাঠ্যক্রমের সাথে সম্পূর্ণভাবে সংযুক্ত এবং সংগত।</p>
+            </div>
+            <div class="benefit-card stagger-item fade-in">
+                <h3>অসমীয়ায় লেখা</h3>
+                <p>স্থানীয় ভাষায় লেখা যা শিক্ষার্থীদের জন্য বোঝা সহজ এবং আকর্ষণীয়।</p>
+            </div>
+            <div class="benefit-card stagger-item fade-in">
+                <h3>বিশেষজ্ঞ লেখক</h3>
+                <p>দশকের গবেষণা এবং শিক্ষণ অভিজ্ঞতা সম্পন্ন লেখক দ্বারা সংকলিত।</p>
+            </div>
+            <div class="benefit-card stagger-item fade-in">
+                <h3>অনন্য দৃষ্টিভঙ্গি</h3>
+                <p>অসম ইতিহাসের উপর বিশেষ জোর সহ ভারতীয় ইতিহাসের অনন্য দৃষ্টিভঙ্গি।</p>
+            </div>
+            <div class="benefit-card stagger-item fade-in">
+                <h3>ব্যবহারিক জ্ঞান</h3>
+                <p>তাত্ত্বিক জ্ঞান এবং ব্যবহারিক প্রয়োগের নিখুঁত সমন্বয়।</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About The Book -->
+    <section id="about" class="section-dark">
+        <h2>বই সম্পর্কে</h2>
+        <div class="book-details">
+            <div class="book-info">
+                <div class="info-item">
+                    <div class="info-item-label">শিরোনাম</div>
+                    <div class="info-item-value">ভাৰত বুৰঞ্জীকোষ</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-item-label">লেখক</div>
+                    <div class="info-item-value">শান্তনু কৌশিক বরুয়া</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-item-label">ভাষা</div>
+                    <div class="info-item-value">অসমীয়া</div>
+                </div>
+                <div class="info-item">
+                    <div class="info-item-label">পৃষ্ঠা সংখ্যা</div>
+                    <div class="info-item-value">৮৫০+</div>
+                </div>
+            </div>
+            <div>
+                <p style="color: rgba(255, 248, 238, 0.9); font-size: 1.05rem; line-height: 2;">ভাৰত বুৰঞ্জীকোষ হল ভারতীয় ইতিহাসের একটি সম্পূর্ণ এবং ব্যাপক সংকলন যা শিক্ষার্থী, শিক্ষক এবং ইতিহাস প্রেমীদের জন্য একটি মূল্যবান সম্পদ।</p>
+                <p style="color: rgba(255, 248, 238, 0.8); margin-top: 1.5rem;">এই বইটি প্রাচীন ভারতের বৈদিক যুগ থেকে শুরু করে আধুনিক ভারতের সমসাময়িক বিষয়গুলি পর্যন্ত বিস্তৃত। প্রতিটি অধ্যায় সাবধানে গবেষণা করা হয়েছে এবং পরীক্ষার দৃষ্টিকোণ থেকে উপস্থাপন করা হয়েছে।</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Topics Covered -->
+    <section id="topics" class="section-light">
+        <h2>অন্তর্ভুক্ত বিষয়সমূহ</h2>
+        <div class="topics-grid">
+            <div class="topic-card stagger-item fade-in">
+                <h4>প্রাচীন ভারত</h4>
+                <p>বৈদিক যুগ, মহাজনপদ, মৌর্য সাম্রাজ্য</p>
+            </div>
+            <div class="topic-card stagger-item fade-in">
+                <h4>গুপ্ত যুগ</h4>
+                <p>স্বর্ণযুগ, শিল্প ও সংস্কৃতি, বিজ্ঞান ও প্রযুক্তি</p>
+            </div>
+            <div class="topic-card stagger-item fade-in">
+                <h4>মধ্যযুগীয় ভারত</h4>
+                <p>দিল্লি সালতানাত, মুঘল সাম্রাজ্য, আঞ্চলিক শক্তি</p>
+            </div>
+            <div class="topic-card stagger-item fade-in">
+                <h4>ব্রিটিশ ভারত</h4>
+                <p>কোম্পানি শাসন, সাম্রাজ্য সম্প্রসারণ, প্রশাসনিক সংস্কার</p>
+            </div>
+            <div class="topic-card stagger-item fade-in">
+                <h4>স্বাধীনতা সংগ্রাম</h4>
+                <p>প্রাথমিক জাগরণ, আন্দোলন, স্বাধীনতা অর্জন</p>
+            </div>
+            <div class="topic-card stagger-item fade-in">
+                <h4>আধুনিক ভারত</h4>
+                <p>সংবিধান, নীতি নির্ধারণ, আঞ্চলিক উন্নয়ন</p>
+            </div>
+            <div class="topic-card stagger-item fade-in">
+                <h4>অসম ইতিহাস</h4>
+                <p>প্রাচীন অসম, আহোম সাম্রাজ্য, ব্রিটিশ অসম</p>
+            </div>
+            <div class="topic-card stagger-item fade-in">
+                <h4>সাংস্কৃতিক ঐতিহ্য</h4>
+                <p>শিল্প, সাহিত্য, ধর্ম, দর্শন এবং সামাজিক আন্দোলন</p>
+            </div>
+            <div class="topic-card stagger-item fade-in">
+                <h4>অর্থনৈতিক ইতিহাস</h4>
+                <p>বাণিজ্য, কৃষি, শিল্প এবং অর্থনৈতিক নীতি</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Exam Benefits -->
+    <section id="exams" class="section-dark">
+        <h2>পরীক্ষার জন্য সুবিধা</h2>
+        <p style="color: rgba(255, 248, 238, 0.9); font-size: 1.05rem; margin-bottom: 2rem;">এই বইটি UPSC, APSC এবং ADRE পরীক্ষার জন্য বিশেষভাবে ডিজাইন করা হয়েছে:</p>
+        <div class="exam-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>পরীক্ষা</th>
+                        <th>প্রাসঙ্গিক বিষয়</th>
+                        <th>কভারেজ স্তর</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>UPSC Civil Services</td>
+                        <td>ভারতীয় ইতিহাস, সাংস্কৃতিক ঐতিহ্য</td>
+                        <td>গভীর এবং ব্যাপক</td>
+                    </tr>
+                    <tr>
+                        <td>APSC Combined</td>
+                        <td>অসম ইতিহাস, আঞ্চলিক অধ্যয়ন</td>
+                        <td>বিস্তারিত এবং আঞ্চলিক ফোকাস</td>
+                    </tr>
+                    <tr>
+                        <td>ADRE (Grade III & IV)</td>
+                        <td>ভারত ও অসম ইতিহাস</td>
+                        <td>সংক্ষিপ্ত এবং গুরুত্বপূর্ণ বিষয়</td>
+                    </tr>
+                    <tr>
+                        <td>SLET & UGC NET</td>
+                        <td>ভারতীয় ইতিহাস বিকাশ</td>
+                        <td>একাডেমিক এবং গবেষণা-ভিত্তিক</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    
+    <!-- About The Author -->
+    <section id="author" class="section-light">
+        <h2>লেখক পরিচয়</h2>
+        <div class="author-container">
+            <div class="author-photo">লেখক ছবি<br>শান্তনু কৌশিক বরুয়া</div>
+            <div class="author-info">
+                <h3>শান্তনু কৌশিক বরুয়া</h3>
+                <div class="author-bio">
+                    <p>শান্তনু কৌশিক বরুয়া একজন বিখ্যাত ইতিহাসবিদ এবং শিক্ষক যিনি ভারতীয় ইতিহাস এবং বিশেষত অসম ইতিহাসের ক্ষেত্রে বিশেষজ্ঞ। তিনি তিন দশকেরও বেশি সময় ধরে শিক্ষকতা করছেন এবং হাজার হাজার শিক্ষার্থীকে বিভিন্ন প্রতিযোগিতামূলক পরীক্ষায় সফল হতে সাহায্য করেছেন।</p>
+                    <p style="margin-top: 1rem;">তার গবেষণা কাজ একাধিক জাতীয় ও আন্তর্জাতিক সংস্থায় প্রকাশিত হয়েছে এবং তিনি ইতিহাস শিক্ষায় বিভিন্ন পুরস্কার জিতেছেন। তার লক্ষ্য হল ইতিহাসকে সহজ, আকর্ষণীয় এবং সকলের জন্য সহজলভ্য করা।</p>
+                </div>
+                <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <a href="#" style="padding: 0.8rem 1.5rem; background: var(--primary-green); color: var(--cream); border-radius: 4px; text-decoration: none;">সোশ্যাল মিডিয়া</a>
+                    <a href="#" style="padding: 0.8rem 1.5rem; background: transparent; color: var(--primary-green); border: 2px solid var(--primary-green); border-radius: 4px; text-decoration: none;">ব্লগ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Author's Other Works -->
+    <section class="section-dark">
+        <h2>লেখকের অন্যান্য কাজ</h2>
+        <div class="topics-grid">
+            <div class="topic-card stagger-item fade-in">
+                <h4>অসম রাজনীতি</h4>
+                <p>আধুনিক অসমের রাজনৈতিক বিবর্তন এবং নীতি নির্ধারণ</p>
+            </div>
+            <div class="topic-card stagger-item fade-in">
+                <h4>সাংস্কৃতিক অধ্যয়ন</h4>
+                <p>ভারতীয় এবং অসমীয় সংস্কৃতির গভীর বিশ্লেষণ</p>
+            </div>
+            <div class="topic-card stagger-item fade-in">
+                <h4>শিক্ষা সংক্ষিপ্তকরণ</h4>
+                <p>UPSC প্রস্তুতির জন্য বিভিন্ন বিষয়ের সংক্ষিপ্তকরণ</p>
+            </div>
+            <div class="topic-card stagger-item fade-in">
+                <h4>সম্পাদকীয় অবদান</h4>
+                <p>জাতীয় পত্রিকা এবং একাডেমিক জার্নালে নিয়মিত অবদান</p>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials -->
+    <section id="testimonials" class="section-light">
+        <h2>পাঠকদের মতামত</h2>
+        <div class="testimonial-container">
+            <div class="testimonials">
+                <div class="testimonial stagger-item fade-in">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"এই বইটি আমার UPSC প্রস্তুতির জন্য সবচেয়ে মূল্যবান সম্পদ ছিল। অসমীয়ায় লেখা হওয়ার কারণে আমি খুব সহজেই বুঝতে পারেছি এবং দীর্ঘ সময় ধরে মনে রাখতে পেরেছি।"</p>
+                    <div class="testimonial-author">রাজীব কুমার সিংহ</div>
+                    <div class="testimonial-role">UPSC সফল প্রার্থী, 2024</div>
+                </div>
+                <div class="testimonial stagger-item fade-in">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"অসম ইতিহাসের বিষয়ে এত বিস্তারিত এবং গবেষণা-ভিত্তিক বই আমি আগে কখনো দেখিনি। APSC পরীক্ষায় এটি অত্যন্ত সহায়ক প্রমাণিত হয়েছে।"</p>
+                    <div class="testimonial-author">অনীতা শর্মা</div>
+                    <div class="testimonial-role">APSC শিক্ষক, 2023</div>
+                </div>
+                <div class="testimonial stagger-item fade-in">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"লেখকের অভিজ্ঞতা এবং গবেষণা এই বইতে প্রতিফলিত হয়েছে। এটি শুধু একটি পাঠ্যপুস্তক নয়, এটি ইতিহাসের একটি দর্শন।"</p>
+                    <div class="testimonial-author">প্রফেসর নীল কমল গোস্বামী</div>
+                    <div class="testimonial-role">ইতিহাস বিভাগের প্রধান, গৌহাটি বিশ্ববিদ্যালয়</div>
+                </div>
+                <div class="testimonial stagger-item fade-in">
+                    <div class="testimonial-stars">★★★★★</div>
+                    <p class="testimonial-text">"আমার শিক্ষার্থীরা এই বইটি খুব পছন্দ করেছে। এটি পড়তে আকর্ষণীয় এবং একই সাথে সম্পূর্ণ।"</p>
+                    <div class="testimonial-author">মোহিত সেন</div>
+                    <div class="testimonial-role">ইতিহাস শিক্ষক, দিল্লি পাবলিক স্কুল</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- FAQ Section -->
+    <section id="faq" class="section-dark">
+        <h2>প্রায়ই জিজ্ঞাসিত প্রশ্ন</h2>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>এই বইটি কীভাবে অন্যান্য ইতিহাস বই থেকে আলাদা?</span>
+                    <div class="faq-toggle">▼</div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-text">
+                        এই বইটি অসমীয়া ভাষায় লেখা এবং UPSC, APSC, ADRE পরীক্ষার জন্য বিশেষভাবে ডিজাইন করা হয়েছে। এটি ভারতীয় ইতিহাসের সাথে অসম ইতিহাসকে সংযুক্ত করে এবং একটি সামগ্রিক দৃষ্টিভঙ্গি প্রদান করে।
+                    </div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>বইটি কত পৃষ্ঠার এবং কত খরচ?</span>
+                    <div class="faq-toggle">▼</div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-text">
+                        বইটি প্রিমিয়াম সংস্করণে ৮৫০+ পৃষ্ঠা রয়েছে এবং সাশ্রয়ী মূল্যে পাওয়া যায়। বর্তমান মূল্য এবং ছাড়ের জন্য আমাদের সাথে যোগাযোগ করুন।
+                    </div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>কীভাবে বইটি অর্ডার করতে পারি?</span>
+                    <div class="faq-toggle">▼</div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-text">
+                        আপনি এই ওয়েবসাইটের মাধ্যমে সরাসরি অর্ডার করতে পারেন অথবা আমাদের সাথে যোগাযোগ করতে পারেন। আমরা অনলাইন এবং অফলাইন উভয় মাধ্যমে ডেলিভারি প্রদান করি।
+                    </div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>ই-বুক সংস্করণ পাওয়া যায় কি?</span>
+                    <div class="faq-toggle">▼</div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-text">
+                        হ্যাঁ, ই-বুক সংস্করণ শীঘ্রই উপলব্ধ হবে। আপনি আমাদের নিউজলেটারে সাইন আপ করে আপডেট পেতে পারেন।
+                    </div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>এই বইটি স্কুল এবং কলেজের জন্য উপযুক্ত?</span>
+                    <div class="faq-toggle">▼</div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-text">
+                        বইটি উচ্চ বিদ্যালয় থেকে বিশ্ববিদ্যালয় স্তর পর্যন্ত উপযুক্ত। এটি শিক্ষকদের জন্য শিক্ষণ সামগ্রী হিসাবেও ব্যবহার করা যায়।
+                    </div>
+                </div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-question">
+                    <span>বাল্ক অর্ডারের জন্য বিশেষ ছাড় আছে?</span>
+                    <div class="faq-toggle">▼</div>
+                </div>
+                <div class="faq-answer">
+                    <div class="faq-answer-text">
+                        হ্যাঁ, স্কুল, কলেজ এবং প্রতিষ্ঠানের জন্য বাল্ক অর্ডারে বিশেষ ছাড় দেওয়া হয়। বিশেষ মূল্যের জন্য আমাদের সাথে যোগাযোগ করুন।
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact" class="section-light">
+        <h2>আমাদের সাথে যোগাযোগ করুন</h2>
+        <p style="text-align: center; font-size: 1.05rem; color: var(--text-light); max-width: 600px; margin: 0 auto 2rem;">আমাদের টিম আপনার প্রশ্ন এবং পরামর্শের জন্য সর্বদা প্রস্তুত। নিচের ফর্মটি পূরণ করুন এবং আমরা শীঘ্রই আপনার সাথে যোগাযোগ করব।</p>
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <label for="name">নাম *</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">ইমেইল *</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="subject">বিষয়</label>
+                <input type="text" id="subject" name="subject">
+            </div>
+            <div class="form-group">
+                <label for="message">বার্তা *</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary form-submit">বার্তা পাঠান</button>
+        </form>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>ভাৰত বুৰঞ্জীকোষ</h4>
+                <p style="color: rgba(255, 248, 238, 0.7); font-size: 0.95rem; line-height: 1.8;">একটি সম্পূর্ণ ভারতীয় ইতিহাস সংকলন যা UPSC, APSC এবং ADRE পরীক্ষার জন্য আদর্শ।</p>
+            </div>
+            <div class="footer-section">
+                <h4>দ্রুত লিংক</h4>
+                <ul>
+                    <li><a href="#about">বই সম্পর্কে</a></li>
+                    <li><a href="#author">লেখক</a></li>
+                    <li><a href="#exams">পরীক্ষা</a></li>
+                    <li><a href="#faq">প্রশ্ন</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>আইনী</h4>
+                <ul>
+                    <li><a href="#">গোপনীয়তা নীতি</a></li>
+                    <li><a href="#">শর্তাবলী</a></li>
+                    <li><a href="#">কপিরাইট</a></li>
+                    <li><a href="#">দাবিত্যাগ</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>সোশ্যাল মিডিয়া</h4>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 ভাৰত বুৰঞ্জীকোষ। সর্বাধিকার সংরক্ষিত। শান্তনু কৌশিক বরুয়া দ্বারা।</p>
+        </div>
+    </footer>
+    
+    <script>
+        // Mobile Menu Toggle
+        const mobileToggle = document.getElementById('mobileToggle');
+        const navLinks = document.getElementById('navLinks');
+        
+        mobileToggle.addEventListener('click', () => {
+            mobileToggle.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+        
+        // Close mobile menu on link click
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileToggle.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+        
+        // Navbar scroll effect
+        const nav = document.querySelector('nav');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+        
+        // Fade in animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.benefit-card, .topic-card, .testimonial').forEach(el => {
+            observer.observe(el);
+        });
+        
+        // FAQ Accordion
+        const faqItems = document.querySelectorAll('.faq-item');
+        
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            question.addEventListener('click', () => {
+                // Close other items
+                faqItems.forEach(otherItem => {
+                    if (otherItem !== item) {
+                        otherItem.classList.remove('active');
+                    }
+                });
+                // Toggle current item
+                item.classList.toggle('active');
+            });
+        });
+        
+        // Contact Form
+        const contactForm = document.getElementById('contactForm');
+        
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            const formData = {
+                name: document.getElementById('name').value,
+                email: document.getElementById('email').value,
+                subject: document.getElementById('subject').value,
+                message: document.getElementById('message').value
+            };
+            
+            // Validate form
+            if (formData.name && formData.email && formData.message) {
+                // Success message
+                alert('ধন্যবাদ! আপনার বার্তা সফলভাবে পাঠানো হয়েছে। আমরা শীঘ্রই আপনার সাথে যোগাযোগ করব।');
+                contactForm.reset();
+            } else {
+                alert('দয়া করে সমস্ত প্রয়োজনীয় ক্ষেত্র পূরণ করুন।');
+            }
+        });
+        
+        // Smooth scroll behavior enhancement
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#') {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        const offsetTop = target.offsetTop - 60;
+                        window.scrollTo({
+                            top: offsetTop,
+                            behavior: 'smooth'
+                        });
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>
